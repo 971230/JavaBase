@@ -9,8 +9,8 @@ public class MergeSort {
     /**
      * 归并排序 时间复杂度NlogN 空间复杂度N  稳定
      *
-     * @param array
-     * @return
+     * @param array array
+     * @return int[] array
      */
 
     public static int[] mergeSort(int[] array) {
@@ -21,9 +21,9 @@ public class MergeSort {
     /**
      * 对左右两边的数据进行递归
      *
-     * @param array
-     * @param left
-     * @param right
+     * @param array array
+     * @param left left
+     * @param right right
      */
 
     private static void sort(int[] array, int left, int right) {
